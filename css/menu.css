@@ -1,0 +1,26 @@
+#navigator {
+    display: flex;
+    height: auto;
+    margin-bottom: 15px;
+    background-color: rgb(187, 249, 182);
+    border-radius: 10px;
+    box-shadow: 5px 5px lightblue;
+}
+
+#navigator #container {
+    position: relative;
+    margin: 0 auto;
+}
+
+#navigator #container .navItem {
+    float: left;
+    color: rgb(77, 74, 74);
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+}
+
+#navigator #container a:hover {
+    font-weight: bold;
+    text-shadow: 2px 2px lightblue;
+}

@@ -1,0 +1,8 @@
+-Media queries (para hacer responsive a pata)
+- Bootstrap (para responsive más sencillo)
+- Menú hamburguesa (hamburger menu).
+- Inline block 
+
+- Width:50%;
+- Width: 45%;
+- Display: inline-block; 

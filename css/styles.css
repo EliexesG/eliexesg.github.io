@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f9f9f7 url('../img/Fondo.jpg') repeat-y;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', sans-serif;
+    line-height: 20px;
+    color: rgb(51, 48, 48);
+}
+
+a {
+    text-decoration: underline;
+    color: darkgrey;
+}
+
+a:hover {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+p {
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#outer {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: initial;
+    overflow: overlay;
+}
+
+#header {
+    max-width: 100%;
+    height: 170px;
+}
+
+#header #logo, #footer {
+    position: relative;
+    width: 50%;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.fotoperfil {
+    border-radius: 50%;
+}
+
+.section, .referencia {
+    margin-bottom: 15px;
+    background-color: rgb(187, 249, 182);
+    border-radius: 10px;
+    box-shadow: 5px 5px lightblue;
+    padding: 20px 20px;
+}
+
+
+#principalcontent {
+    width: 100%;
+}
+
+#principalcontent #flexcontent {
+    display: flex;
+    flex-direction: row;
+}
+
+#primarycontent {
+    width: 60%;
+}
+
+#secundarycontent {
+    position: relative;
+    width: 25%;
+    margin-left: 9rem;
+}
+
+#principalcontent #flexcontent #primarycontent #InformacionPersonal h2{
+    font-size: 18px;
+    line-height: 25px;
+    color: #656551;
+    letter-spacing: -1px;
+    padding: 0px 0px 10px 15px;
+    margin-bottom: 20px;
+}
+
+#principalcontent #flexcontent #primarycontent #InformacionPersonal p {
+    line-height: 15px;
+    color: #656551;
+    letter-spacing: -1px;
+    padding: 0px 0px 0px 15px;
+}
+
+#principalcontent #flexcontent #primarycontent #InformacionAcademica h2{
+    font-size: 18px;
+    line-height: 25px;
+    color: #656551;
+    letter-spacing: -1px;
+    padding: 0px 0px 10px 15px;
+    margin-bottom: 20px;
+}
+
+.section, .referencia {
+    line-height: 25px;
+    margin-left: 15px;
+    line-height: 15px;
+    color: #656551;
+    letter-spacing: -1px;
+}
+
+#principalcontent #flexcontent #primarycontent #CursosEspecializados {
+    margin-bottom: 12px;
+}
+
+#principalcontent #flexcontent #primarycontent #CursosEspecializados h2{
+    font-size: 18px;
+    line-height: 25px;
+    color: #656551;
+    letter-spacing: -1px;
+    padding: 0px 0px 10px 15px;
+    margin-bottom: 12px;
+}
+
+#principalcontent #flexcontent #primarycontent #CursosEspecializados li {
+    line-height: 25px;
+    color: #656551;
+    letter-spacing: -1px;
+    padding: 0px 0px 0px 15px;
+    background-color: rgb(86, 233, 247);
+    border-radius: 10px;
+    box-shadow: 5px 5px lightblue;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+#principalcontent #flexcontent #primarycontent #ExperienciaLaboral h2{
+    font-size: 18px;
+    line-height: 25px;
+    color: #656551;
+    letter-spacing: -1px;
+    padding: 0px 0px 10px 15px;
+    margin-bottom: 12px;
+}
+
+
+#principalcontent #flexcontent #primarycontent #Hobbies {
+    margin-bottom: 12px;
+}
+
+#principalcontent #flexcontent #primarycontent #Hobbies h2{
+    font-size: 18px;
+    line-height: 25px;
+    color: #656551;
+    letter-spacing: -1px;
+    padding: 0px 0px 10px 15px;
+    margin-bottom: 12px;
+}
+
+#principalcontent #flexcontent #primarycontent #Hobbies li {
+    line-height: 25px;
+    color: #656551;
+    letter-spacing: -1px;
+    padding: 0px 0px 0px 15px;
+    background-color: rgb(86, 233, 247);
+    border-radius: 10px;
+    box-shadow: 5px 5px lightblue;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+#principalcontent #flexcontent #secundarycontent #Referencias h2{
+    font-size: 18px;
+    line-height: 25px;
+    color: #656551;
+    letter-spacing: -1px;
+    padding: 0px 0px 10px 15px;
+    margin-bottom: 12px;
+}
+
+#principalcontent #table {
+    position: relative;
+    width: 50%;
+    margin: 15px auto;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+#principalcontent #table #Habilidades {
+    position: relative;
+    width: 70%;
+    margin: 15px auto;
+    text-align: center;
+    line-height: 25px;
+    color: #656551;
+    letter-spacing: -1px;
+    box-shadow: 5px 5px lightblue;
+}
+
+#principalcontent #table #Habilidades #Titulos {
+    background-color: rgb(86, 233, 247);
+    border-radius: 15px;
+}
+
+#principalcontent #table #Habilidades .Dato {
+    background-color: rgb(187, 249, 182);
+    border-radius: 15px;
+}
